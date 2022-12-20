@@ -1,0 +1,60 @@
+.in{
+    padding: 8px;
+    margin-left: 10px;
+    outline: 0;
+    border: 0;
+}
+a{
+    text-decoration: none;
+
+}
+.rr{
+    align-items: center;
+    color: white;
+    margin-left: 0;
+}
+.hovs{
+    margin-top: 10px;
+}
+.f{
+    display: flex;
+    align-items: center;
+    width: minmax(200px,30%);
+     max-width: 250px;
+    margin-left: 10px;
+}
+.dark::placeholder{
+    color: white;
+}
+.de{
+    background-color: white;
+}
+.fl{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: space-between;
+
+}
+.in:focus  {
+    border: 1px solid orange;
+}
+@media screen and (min-width:768px) {
+    input{
+        width: 300px;
+    }
+    .w{
+        max-width: 320px;
+    }
+.fl{
+    padding: 2rem 3rem 2rem ;
+     max-width: 1144px;
+    margin: auto;
+    flex-direction: row;
+
+}    
+}
+.dark svg{
+
+    background-color: inherit;
+}

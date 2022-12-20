@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+*,*::before,::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    scroll-behavior: smooth;
+}
+
+
+body{
+    height: 100vh;
+    color: black;
+    /* background-color: whitesmoke; */
+    /* background-color: rgb(43,54,66); */
+    /* color: white; */
+}

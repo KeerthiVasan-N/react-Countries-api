@@ -1,0 +1,14 @@
+.grid{
+    max-width: 1200px;
+    margin: auto;
+}
+.ol{
+    color: white;
+}
+body{
+    background-color: whitesmoke;
+}
+
+/* .dark svg{
+    fill: white;
+} */

@@ -1,0 +1,53 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.dark{
+    background-color: hsl(207, 26%, 17%);
+    color: white;
+}
+button{
+    cursor: pointer;
+    color: inherit;
+    background-color: white;
+    outline: 0;
+    border: 0;
+}
+ .ol{
+    background-color:  hsl(209, 23%, 22%);
+} 
+h1{
+    font-size: 18px;
+}
+.button{
+    border: 0;
+    outline: 0;
+}
+.white>* {
+    max-width: 1044px;
+
+    margin: auto;
+}
+.dark .white{
+    background-color:  hsl(209, 23%, 22%)s;
+}
+.mm{
+    border: 2px solid red;
+}
+.white{
+    margin-bottom: 2rem;
+}
+header svg{
+    margin-right: 10px;
+}
+@media screen and (min-width:768px) {
+    h1{
+        font-size: 28px;
+    }
+    .button{
+        font-size: 20px;
+
+    }
+}
